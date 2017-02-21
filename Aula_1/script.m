@@ -1,0 +1,2 @@
+x = imread('imagem.jpg');
+
