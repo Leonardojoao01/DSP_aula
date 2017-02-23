@@ -4,6 +4,7 @@ function [ y ] = filtro_upsampling_v2( x )
     %x = x(:,:,1);
     
     y = zeros(size(x,1)*2,size(x,2)*2);
+    %y = x(1:2:end,1:2:end); 
     
     for i=1:size(x,1)
         for j=1:size(x,2)

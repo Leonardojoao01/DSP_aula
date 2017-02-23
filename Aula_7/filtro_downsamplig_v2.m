@@ -21,7 +21,7 @@ function [ y ] = filtro_downsamplig_v2( x )
             end
         end
     end
-    y=y/255;
+    %y=y/255;
         
         
 end
