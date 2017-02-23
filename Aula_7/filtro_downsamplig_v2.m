@@ -2,7 +2,7 @@ function [ y ] = filtro_downsamplig_v2( x )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 
-    x = x(:,:,1);
+    %x = x(:,:,1);
     
     y = zeros(round(size(x,1)*0.5),round(size(x,2)*0.5));
 

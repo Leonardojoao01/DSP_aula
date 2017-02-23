@@ -1,7 +1,7 @@
 function [ y ] = upsampling( x )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
-    x = x(:,:,1);
+    %x = x(:,:,1);
     
     y = zeros(size(x,1)*2,size(x,2));
     
